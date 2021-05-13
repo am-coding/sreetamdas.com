@@ -33,9 +33,9 @@ const GlobalStyles = createGlobalStyle`
 	--color-background: rgb(255, 255, 255);
 	--color-inlineCode-fg: var(--color-primary);
 	--color-inlineCode-bg: rgb(220, 220, 220);
-	--color-primary-accent: rgb(91, 52, 218);
+	--color-primary-accent: rgb(253, 54, 54);
 	--color-fancy-pants: var(--color-primary-accent);
-	--color-secondary-accent: rgb(53, 142, 241);
+	--color-secondary-accent: rgb(255, 102, 102);
 	--values-primary-accent: 91, 52, 218;
 
 	--font-family-code: Iosevka Web, SFMono-Regular, Consolas, Roboto Mono, Menlo, Monaco,
@@ -53,8 +53,8 @@ const GlobalStyles = createGlobalStyle`
 	}
 
 	[data-theme="dark"] {
-		--color-primary-accent: rgb(157, 134, 233);
-		--color-secondary-accent: rgb(97, 218, 251);
+		--color-primary-accent: rgb(253, 54, 54);
+		--color-secondary-accent: rgb(255, 102, 102);
 		--color-primary: rgb(255, 255, 255);
 		--color-background: rgb(0, 0, 0);
 		--color-inlineCode-fg: var(--color-primary);
@@ -63,7 +63,7 @@ const GlobalStyles = createGlobalStyle`
 	}
 	[data-theme="batman"] {
 		--color-primary-accent: rgb(255, 255, 0);
-		--color-secondary-accent: rgb(97, 218, 251);
+		--color-secondary-accent: rgb(255, 102, 102);
 		--color-primary: rgb(255, 255, 255);
 		--color-background: rgb(0, 0, 0);
 		--color-inlineCode-fg: var(--color-primary);
@@ -142,6 +142,9 @@ const GlobalStyles = createGlobalStyle`
 			https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break */
 		box-decoration-break: clone;
 		white-space: nowrap;
+	}
+	body div iframe {
+		display: none;
 	}
 `;
 

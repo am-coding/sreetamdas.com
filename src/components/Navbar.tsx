@@ -119,36 +119,36 @@ export const Navbar = ({
 		<Fragment>
 			<NavbarWithLogo>
 				<NextIconLink href="/">
-					<img src="/logo.svg" alt="logo" height="25px" width="25px" />
+					<img src="/logo.png" alt="logo" height="50px" width="50px" />
 				</NextIconLink>
 				<NavbarWithNavs>
 					<NavLink href="/blog">blog</NavLink>
-					<NavLink href="/uses">uses</NavLink>
+					<NavLink href="/work">work</NavLink>
 					<NavLink href="/about">about</NavLink>
 					<IconContainer
-						href="https://github.com/sreetamdas"
+						href="https://github.com/am-coding"
 						target="_blank"
 						rel="noopener noreferrer"
 						$styledOnHover
 					>
 						<FaGithub
-							aria-label="Sreetam's GitHub"
-							title="Sreetam Das' GitHub"
+							aria-label="Amrik's GitHub"
+							title="Amrik Malhans' GitHub"
 						/>
 					</IconContainer>
 					<IconContainer
-						href="https://twitter.com/_SreetamDas"
+						href="https://twitter.com/am_coding"
 						target="_blank"
 						rel="noopener noreferrer"
 						$styledOnHover
 					>
 						<FaTwitter
-							aria-label="Sreetam Das' Twitter"
-							title="Sreetam Das' Twitter"
+							aria-label="Amrik Malhans' Twitter"
+							title="Amrik Malhans' Twitter"
 						/>
 					</IconContainer>
 					<IconContainer
-						href="https://sreetamdas.com/rss/feed.xml"
+						href="https://amrikmalhans.com/rss/feed.xml"
 						$styledOnHover
 					>
 						<FiRss aria-label="Blog RSS feed" title="Blog RSS feed" />
@@ -182,48 +182,48 @@ type TExternalLinksArray = Array<{
 export const ExternalLinksOverlay = () => {
 	const externalLinks: TExternalLinksArray = [
 		{
-			link: "https://twitter.com/_SreetamDas",
-			title: "Sreetam Das' GitHub",
+			link: "https://twitter.com/_amrikmalhans",
+			title: "Amrik Malhans' GitHub",
 			icon: <FaGithub />,
 		},
 		{
-			link: "https://twitter.com/_SreetamDas",
-			title: "Sreetam Das' Twitter",
+			link: "https://twitter.com/am_coding",
+			title: "Amrik Malhans' Twitter",
 			icon: <FaTwitter />,
 		},
 		{
 			link: "https://stackoverflow.com/users/5283213",
-			title: "Sreetam Das' StackOverflow",
+			title: "Amrik Malhans' StackOverflow",
 			icon: <FaStackOverflow />,
 		},
 		{
-			link: "https://www.linkedin.com/in/sreetamdas",
-			title: "Sreetam Das' LinkedIn",
+			link: "https://www.linkedin.com/in/amrikmalhans",
+			title: "Amrik Malhans' LinkedIn",
 			icon: <FaLinkedin />,
 		},
 		{
-			link: "mailto:sreetam@sreetamdas.com",
-			title: "Send email to Sreetam Das",
+			link: "mailto:sreetam@amrikmalhans.com",
+			title: "Send email to Amrik Malhans",
 			icon: <FaEnvelope />,
 		},
 		{
-			link: "https://steamcommunity.com/id/sreetamdas",
-			title: "Sreetam Das' Steam",
+			link: "https://steamcommunity.com/id/amrikmalhans",
+			title: "Amrik Malhans' Steam",
 			icon: <FaSteam />,
 		},
 		{
 			link: "https://giphy.com/gifs/LrmU6jXIjwziE/tile",
-			title: "Sreetam Das' Reddit",
+			title: "Amrik Malhans' Reddit",
 			icon: <FaRedditAlien />,
 		},
 		{
 			link: "https://open.spotify.com/user/22nkuerb2tgjpqwhy4tp4aecq",
-			title: "Sreetam Das' Spotify",
+			title: "Amrik Malhans' Spotify",
 			icon: <FaSpotify />,
 		},
 		{
 			link: "https://discord.gg/HGZc5G7CeR",
-			title: "Join Sreetam Das' Discord server",
+			title: "Join Amrik Malhans' Discord server",
 			icon: <FaDiscord />,
 		},
 	];

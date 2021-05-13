@@ -11,7 +11,7 @@ export const DocumentHead = ({
 	imageURL: relativeImageURL,
 	description,
 }: TDocumentHeadProps) => {
-	const pageTitle = `${title} — Sreetam Das`;
+	const pageTitle = `${title} — Amrik Malhans`;
 	const imageURL = getAbsoluteURL(relativeImageURL ?? "/SreetamDas.jpg");
 	return (
 		<Head>
@@ -25,14 +25,11 @@ export const DocumentHead = ({
 			<meta property="og:type" content="website" />
 
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:site" content="@_SreetamDas" />
+			<meta name="twitter:site" content="@am_coding" />
 			<meta name="twitter:title" content={pageTitle} />
 			<meta
 				name="twitter:description"
-				content={
-					description ??
-					"Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!"
-				}
+				content={description ?? "Fullstack TypeScript/Go Engineer from India!"}
 			/>
 			<meta name="twitter:image" content={imageURL} />
 		</Head>
