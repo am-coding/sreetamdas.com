@@ -182,7 +182,7 @@ type TExternalLinksArray = Array<{
 export const ExternalLinksOverlay = () => {
 	const externalLinks: TExternalLinksArray = [
 		{
-			link: "https://twitter.com/_amrikmalhans",
+			link: "https://github.com/am-coding",
 			title: "Amrik Malhans' GitHub",
 			icon: <FaGithub />,
 		},
@@ -191,38 +191,39 @@ export const ExternalLinksOverlay = () => {
 			title: "Amrik Malhans' Twitter",
 			icon: <FaTwitter />,
 		},
+		// {
+		// 	link: "https://stackoverflow.com/users/5283213",
+		// 	title: "Amrik Malhans' StackOverflow",
+		// 	icon: <FaStackOverflow />,
+		// },
 		{
-			link: "https://stackoverflow.com/users/5283213",
-			title: "Amrik Malhans' StackOverflow",
-			icon: <FaStackOverflow />,
-		},
-		{
-			link: "https://www.linkedin.com/in/amrikmalhans",
+			link: "https://www.linkedin.com/in/amrik-malhans-11a150193/",
 			title: "Amrik Malhans' LinkedIn",
 			icon: <FaLinkedin />,
 		},
 		{
-			link: "mailto:sreetam@amrikmalhans.com",
+			link: "mailto:amrikdeveloper@gmail.com",
 			title: "Send email to Amrik Malhans",
 			icon: <FaEnvelope />,
 		},
+		// {
+		// 	link: "https://steamcommunity.com/id/amrikmalhans",
+		// 	title: "Amrik Malhans' Steam",
+		// 	icon: <FaSteam />,
+		// },
+		// {
+		// 	link: "https://giphy.com/gifs/LrmU6jXIjwziE/tile",
+		// 	title: "Amrik Malhans' Reddit",
+		// 	icon: <FaRedditAlien />,
+		// },
 		{
-			link: "https://steamcommunity.com/id/amrikmalhans",
-			title: "Amrik Malhans' Steam",
-			icon: <FaSteam />,
-		},
-		{
-			link: "https://giphy.com/gifs/LrmU6jXIjwziE/tile",
-			title: "Amrik Malhans' Reddit",
-			icon: <FaRedditAlien />,
-		},
-		{
-			link: "https://open.spotify.com/user/22nkuerb2tgjpqwhy4tp4aecq",
+			link:
+				"https://open.spotify.com/user/t6sk1wcc04sm2z5rp65kzic4n?si=5b65d296f5604b7c",
 			title: "Amrik Malhans' Spotify",
 			icon: <FaSpotify />,
 		},
 		{
-			link: "https://discord.gg/HGZc5G7CeR",
+			link: " https://discord.gg/3Ks7sMA",
 			title: "Join Amrik Malhans' Discord server",
 			icon: <FaDiscord />,
 		},

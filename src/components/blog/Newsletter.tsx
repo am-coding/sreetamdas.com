@@ -32,19 +32,20 @@ export const Newsletter = () => {
 		<Grid>
 			<NewsletterTitle>Sign up for my newsletter</NewsletterTitle>
 			<NewsletterText>
-				I curate links keeping up with the JavaScript, React and webdev world.
-				<br />
+				I curate posts about what&apos;s up with the JavaScript, Go and webdev
+				world.
+				{/* <br />
 				May include Mechanical Keyboards.
-				<br />
+				<br /> */}
 				<br />
 				No spam, unsubscribe anytime :)
 				<br />
-				You can also{" "}
+				{/* You can also{" "}
 				<a href="https://buttondown.email/sreetamdas/archive">
 					view previous issues
 				</a>
 				, and{" "}
-				<a href="https://buttondown.email/sreetamdas/rss">subscribe via RSS</a>!
+				<a href="https://buttondown.email/sreetamdas/rss">subscribe via RSS</a>! */}
 			</NewsletterText>
 			<div>
 				<StyledForm onSubmit={handleFormSubmit}>
@@ -78,7 +79,7 @@ const StyledForm = styled.form`
 `;
 
 const StyledInput = styled.input.attrs({
-	placeholder: "sreetam@sreetamdas.com",
+	placeholder: "amrikdeveloper@gmail.com",
 })`
 	font-size: 16px;
 	background-color: var(--color-background);
