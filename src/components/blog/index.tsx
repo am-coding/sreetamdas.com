@@ -14,7 +14,7 @@ import { TBlogPost } from "typings/blog";
 import { useHover } from "utils/hooks";
 
 export const ShareLinks = (post: TBlogPost) => {
-	const tweetShareURL = `https://twitter.com/intent/tweet?text=Check out: ${post.title}&url=${process.env.SITE_URL}/blog/${post.slug}%0D%0A&via=_SreetamDas`;
+	const tweetShareURL = `https://twitter.com/intent/tweet?text=Check out: ${post.title}&url=https://amrikmalhans.com/blog/${post.slug}%0D%0A&via=am_coding`;
 
 	return (
 		<IconContainer

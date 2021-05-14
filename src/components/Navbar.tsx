@@ -9,11 +9,8 @@ import React, {
 import {
 	FaGithub,
 	FaTwitter,
-	FaStackOverflow,
 	FaLinkedin,
 	FaEnvelope,
-	FaSteam,
-	FaRedditAlien,
 	FaSpotify,
 	FaDiscord,
 } from "react-icons/fa";

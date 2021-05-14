@@ -17,12 +17,16 @@ export const Newsletter = () => {
 
 		const data = new FormData(event.target as HTMLFormElement);
 		const res = await fetch(
-			"https://buttondown.email/api/emails/embed-subscribe/sreetamdas",
+			"https://buttondown.email/api/emails/embed-subscribe/amrikmalhans",
 			{
 				body: data,
 				method: "POST",
 			}
 		);
+		// const response = await res.json();
+		// eslint-disable-next-line no-console
+		console.log(res);
+
 		if (!res.ok) setFormError(await res.text());
 		else setFormSuccess(true);
 

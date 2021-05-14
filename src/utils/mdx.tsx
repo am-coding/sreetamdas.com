@@ -5,7 +5,6 @@ import React, { createElement, CSSProperties, PropsWithChildren } from "react";
 import { FiLink } from "react-icons/fi";
 import styled from "styled-components";
 
-import { KARMA_PRISM_THEME } from "pages/karma";
 import { LinkedHeaderIconWrapper } from "styles/blog";
 import { useHover } from "utils/hooks";
 
@@ -41,7 +40,6 @@ const MDXCodeBlock = (props: TMDXProviderCodeblockPassedProps) => {
 			{...defaultProps}
 			code={children.trim()}
 			language={language as Language}
-			theme={KARMA_PRISM_THEME}
 		>
 			{({ className, style, tokens, getLineProps, getTokenProps }) => (
 				<CodePreBlockWithHighlight {...{ style, className }}>
