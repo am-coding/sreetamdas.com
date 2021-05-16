@@ -14,7 +14,6 @@ import {
 	FaSpotify,
 	FaDiscord,
 } from "react-icons/fa";
-import { FiRss, FiSun } from "react-icons/fi";
 import { IoMdMoon } from "react-icons/io";
 import styled from "styled-components";
 
