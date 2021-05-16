@@ -204,11 +204,6 @@ export const ExternalLinksOverlay = () => {
 			icon: <FaEnvelope />,
 		},
 		// {
-		// 	link: "https://steamcommunity.com/id/amrikmalhans",
-		// 	title: "Amrik Malhans' Steam",
-		// 	icon: <FaSteam />,
-		// },
-		// {
 		// 	link: "https://giphy.com/gifs/LrmU6jXIjwziE/tile",
 		// 	title: "Amrik Malhans' Reddit",
 		// 	icon: <FaRedditAlien />,
