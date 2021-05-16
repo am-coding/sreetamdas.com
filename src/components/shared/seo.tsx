@@ -29,7 +29,7 @@ export const DocumentHead = ({
 			<meta name="twitter:title" content={pageTitle} />
 			<meta
 				name="twitter:description"
-				content={description ?? "Fullstack TypeScript/Go Engineer from India!"}
+				content={description ?? "Fullstack TypeScript/Go Engineer."}
 			/>
 			<meta name="twitter:image" content={imageURL} />
 		</Head>

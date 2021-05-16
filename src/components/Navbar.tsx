@@ -144,12 +144,12 @@ export const Navbar = ({
 							title="Amrik Malhans' Twitter"
 						/>
 					</IconContainer>
-					<IconContainer
+					{/* <IconContainer
 						href="https://amrikmalhans.com/rss/feed.xml"
 						$styledOnHover
 					>
 						<FiRss aria-label="Blog RSS feed" title="Blog RSS feed" />
-					</IconContainer>
+					</IconContainer> */}
 					<IconContainer onClick={handleThemeSwitch} href="#">
 						{darkTheme === undefined ? (
 							<div style={{ width: "25px" }} />
