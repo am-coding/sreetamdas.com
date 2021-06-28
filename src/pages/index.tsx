@@ -25,15 +25,14 @@ const Index = () => {
 			</Paragraph>
 			<Paragraph>
 				I&apos;m currently a Backend Engineer at{" "}
-				<StyledLink target="_blank" href="https://app.cloutwallet.io">
-					Cloutwallet{" "}
+				<StyledLink target="_blank" href="https://cryptokek.com/">
+					Cryptokek{" "}
 				</StyledLink>
 				working with{" "}
 				<TextGradient>
-					<Heavy>GraphQL + Node.JS + TypeScript</Heavy>
+					<Heavy>Node.JS + TypeScript + Blockchain</Heavy>
 				</TextGradient>
-				, to build scalable Graph solutions from a RESTful Blockchain API and
-				solving problems with code and critical thinking.
+				, to build an explorer which can level up your token game.
 			</Paragraph>
 			{/* <MDXText>
 				<Tooling />
