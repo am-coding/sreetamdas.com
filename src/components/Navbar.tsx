@@ -123,7 +123,7 @@ export const Navbar = ({
 					<NavLink href="/work">work</NavLink>
 					<NavLink href="/about">about</NavLink>
 					<IconContainer
-						href="https://github.com/am-coding"
+						href="https://github.com/amrikmalhans"
 						target="_blank"
 						rel="noopener noreferrer"
 						$styledOnHover

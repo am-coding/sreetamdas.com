@@ -19,9 +19,9 @@ const Index = () => {
 				<Title size={3}>Hey, I&apos;m Amrik Malhans! </Title>
 			</Center>
 			<Paragraph>
-				I&apos;m a fullstack TypeScript/Go engineer. I utilise technologies like
-				React, GraphQL, Apollo, Azure and Express to build applications that
-				scale.
+				I&apos;m a Backend Engineer and I utilise tech like TypeScript, Go,
+				Node.JS, GraphQL and PostgreSQL to build APIs that scale. I also hold
+				experience with Web3 and Blockchain technologies.
 			</Paragraph>
 			<Paragraph>
 				I&apos;m currently a Backend Engineer at{" "}
@@ -30,24 +30,18 @@ const Index = () => {
 				</StyledLink>
 				working with{" "}
 				<TextGradient>
-					<Heavy>Node.JS + TypeScript + Blockchain</Heavy>
+					<Heavy>Node.JS + TypeScript + Web3 </Heavy>
 				</TextGradient>
-				, to build an explorer which can level up your token game.
+				to build a token and chain explorer.
 			</Paragraph>
-			{/* <MDXText>
-				<Tooling />
-			</MDXText>
+
 			<Paragraph>
-				I also{" "}
-				<span role="img" aria-label="heart">
-					❤️
-				</span>{" "}
-				a lot of other things, in no particular order:
+				I also enjoy a lot of other things, in no particular order:
 				<br />
 				<br />
-				CSGO, Reddit, Mechanical Keyboards, Open Source, GitHub, Factorio,
-				Tactile Switches, Batman and the Internet!
-			</Paragraph> */}
+				Philosophy, Books, Mechanical Keyboards, Crypto, Metal Music, and
+				soccer!
+			</Paragraph>
 		</Fragment>
 	);
 };
