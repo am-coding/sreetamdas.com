@@ -37,7 +37,7 @@ const Index = () => {
 				</StyledLink>
 				working with{" "}
 				<TextGradient>
-					<Heavy>Next.JS + Node.JS + TypeScript</Heavy>
+					<Heavy>Next.JS + Node.JS + TypeScript </Heavy>
 				</TextGradient>
 				to build the next generation of online education.
 			</Paragraph>
